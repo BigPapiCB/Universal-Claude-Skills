@@ -26,10 +26,18 @@ Stack-agnostic core skills for any project. Follows the [SKILL.md standard](http
 
 ## Installation
 
+Clone the repo directly into your Claude skills directory for a permanent, global installation that works across all projects:
+
+```bash
+git clone https://github.com/BigPapiCB/Universal-Claude-Skills.git ~/.claude/skills
+```
+
+### Updating
+
 ```bash
 cd ~/.claude/skills && git pull
 ```
 
 ## Adding Project-Specific Skills
 
-Add at `<project>/.claude/skills/`. Project-level takes precedence.
+Add at `<project>/.claude/skills/`. Project-level takes precedence over global skills.
