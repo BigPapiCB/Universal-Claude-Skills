@@ -1,0 +1,36 @@
+{
+  "name": "universal-baseline-skills",
+  "description": "Stack-agnostic core skills for code quality, security, infrastructure, research, and development patterns. Works across all projects and 12+ AI platforms.",
+  "plugins": [
+    {
+      "name": "quality",
+      "description": "Code quality, review, and refactoring (code-review, test-writer, debugging, error-handling, logging, refactoring)",
+      "skills": ["./code-review", "./test-writer", "./debugging", "./error-handling", "./logging", "./refactoring"]
+    },
+    {
+      "name": "security",
+      "description": "Security auditing, hardening, and auth (security-audit, auth-patterns)",
+      "skills": ["./security-audit", "./auth-patterns"]
+    },
+    {
+      "name": "infrastructure",
+      "description": "Docker, CI/CD, project setup (docker-setup, ci-cd, project-setup)",
+      "skills": ["./docker-setup", "./ci-cd", "./project-setup"]
+    },
+    {
+      "name": "design",
+      "description": "API, database, and system design (api-design, database-design, performance-audit, mcp-builder)",
+      "skills": ["./api-design", "./database-design", "./performance-audit", "./mcp-builder"]
+    },
+    {
+      "name": "research",
+      "description": "Structured research methodology (research)",
+      "skills": ["./research"]
+    },
+    {
+      "name": "frontend",
+      "description": "Frontend quality and accessibility (accessibility)",
+      "skills": ["./accessibility"]
+    }
+  ]
+}
