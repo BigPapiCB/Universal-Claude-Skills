@@ -40,4 +40,12 @@ cd ~/.claude/skills && git pull
 
 ## Adding Project-Specific Skills
 
-Add at `<project>/.claude/skills/`. Project-level takes precedence over global skills.
+Add skills to your project at `<project>/.claude/skills/`. Project-level skills take precedence over global skills, so you can override any baseline skill with your own version.
+
+For example, to override the global `code-review` skill with project-specific rules:
+
+```bash
+mkdir -p .claude/skills/code-review
+```
+
+Then create `.claude/skills/code-review/SKILL.md` with your custom review criteria. Claude will use your project version instead of the global one.
